@@ -3,6 +3,17 @@
 def_main() {
 
 filename="toihealth_$USER"
+dir="/home/$USER/bin"
+
+if [ ! -d "$dir" ] 
+then
+    echo -e "$dir does not exist\n"
+    echo creating $dir and adding to \$PATH variable  
+    mkdir $dir
+    path_var="$dir:\$PATH"
+    echo export PATH=\"$path_var\" >> ~/.bashrc
+    source ~/.bashrc
+fi
 
 echo -e "\nCopying /usr/local/bin/toihealth  --->  /home/$USER/bin/\n"
 
