@@ -8,7 +8,7 @@
 <br>
 <br>
 
-Might need to exit current session and SSH into Quantum again to get this work. If still not working run this command: source /.bashrc
+Might need to exit current session and SSH into Quantum again to get this work. If still not working run this command: <i>source ~/.bashrc</i>
 <br>
 
 ![Untitled](https://user-images.githubusercontent.com/81006481/218986899-1b41e369-9792-4798-8a82-44008490cf84.png)
