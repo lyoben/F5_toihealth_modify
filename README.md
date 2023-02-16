@@ -13,3 +13,6 @@ Might need to exit current session and SSH into Quantum again to get this work. 
 
 ![Untitled](https://user-images.githubusercontent.com/81006481/218986899-1b41e369-9792-4798-8a82-44008490cf84.png)
 
+<br>
+If your iHealth password changed, run the script again to update your password.
+
